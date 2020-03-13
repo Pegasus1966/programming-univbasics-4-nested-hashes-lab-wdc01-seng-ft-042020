@@ -108,8 +108,6 @@ def changing_alan
 end
 
 def adding_to_dennis
-  # add "Assembly" to Dennis Ritchie's languages array
-  # return the entire updated hash
 
 	programmer_hash = 
  		{
@@ -126,5 +124,6 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
-
+    programmer_hash[:dennis_ritchie][:languages].put("Assembly")
+  programmer_hash
 end
